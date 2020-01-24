@@ -10,10 +10,10 @@ class App < Sinatra::Base
   end
 
   get 'hometown' do
-    "Hello, World!"
+    "My hometown is __"
   end
 
   get 'favoorite-song' do
-    "Hello, World!"
+    "My favorite song is __"
   end
 end
